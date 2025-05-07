@@ -64,14 +64,29 @@
 
         .leftsection{
             font-size: 3rem;
+
             
+        }
+        .leftsection ul{
+            
+            display: flex;
+            margin-left: -23px;
+        }
+        .leftsection ul li{
+            display: flex;
+            gap: 1px;
+            margin: 0 23px;
+            list-style: none;
+        }
+        .leftsection a{
+            margin: 0;
         }
 
         .leftsection .btn1{
             
             padding: 12px 4px;
             background: #1e2167;
-            margin: 0;
+            margin: 0 ;
             color: white;
             border: 2px solid white;
             border-radius: 6px ; 
@@ -79,9 +94,8 @@
             cursor: pointer;
             
         }
-        
         .leftsection .btn2{
-            margin-left: 20px;
+            margin-left: -20px;
             padding: 12px;
             background: #1e2167;
             color: white;
@@ -90,7 +104,7 @@
             font-size: 20px;
             cursor: pointer;
             
-        } 
+        }
 
         .leftsection .buttons{
             padding: 50px 0;
@@ -123,14 +137,14 @@
             background: white;
             width: 80vw;
             height: 2px;
-            margin: 56px 0;
+            margin: 30px 0;
             display: flex;
         }
         .secondsection .vertical{
             height: 93px;
             width: 1px;
             background-color: white;
-            margin: 0 100px;
+            margin: 0 160px;
         }
         .image-top{
             width: 34px;
@@ -198,12 +212,18 @@
                     </div>
                     <span id="element"></span>
                     <div class="buttons">
-                        <a href="Shivendra cv (4).pdf" download="Download Resume">
-                            <button class="btn1">Download Resume</button>
-                        </a>
-                        <a href="https://www.linkedin.com/in/shivendra-kumar-16b437248/" target="_blank">
-                            <button class="btn2">Linkedin</button>
-                        </a>
+                        <ul>
+                            <li>
+                                <a href="Shivendra cv (4).pdf">
+                                    <button class="btn1">Download Resume</button>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/shivendra-kumar-16b437248/" target="_blank">
+                                    <button class="btn2">Linkedin</button>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
             </div>
             <div class="rightsection">
